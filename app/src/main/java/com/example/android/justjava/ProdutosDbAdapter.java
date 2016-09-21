@@ -20,7 +20,6 @@ public class ProdutosDbAdapter {
         chave = dataBase.push().getKey();
         p.setChave(chave);
         dataBase.child(chave).setValue(p);
-
     }
 
 }
